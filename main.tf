@@ -4,9 +4,9 @@ provider "azurerm" {
 }
 
 # Define a resource group where the VM will be created
-resource "azurerm_resource_group" "example" {
-  name     = "myResourceGroup"
-  location = "East US"
+resource "azurerm_resource_group" "notest" {
+  name     = "notest"
+  location = "Australia Southeast"
 }
 
 # Define a virtual network
