@@ -19,7 +19,7 @@ resource "azurerm_subnet" "example" {
   virtual_network_name = azurerm_virtual_network.example.name
   address_prefixes     = ["10.0.2.0/24"]
 }
-/*
+
 # Define a public IP address
 resource "azurerm_public_ip" "example" {
   name                = "myPublicIP"
@@ -27,7 +27,7 @@ resource "azurerm_public_ip" "example" {
   resource_group_name = azurerm_resource_group.example.name
   allocation_method   = "Dynamic"
 }
-*/
+
 # Define a network security group (optional)
 resource "azurerm_network_security_group" "example" {
   name                = "myNSG"
