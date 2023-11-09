@@ -1,8 +1,3 @@
-# Define the provider and set the credentials
-provider "azurerm" {
-  features {}
-}
-
 # Define a resource group where the VM will be created
 resource "azurerm_resource_group" "notest" {
   name     = "notest"
