@@ -1,5 +1,5 @@
 # Define a resource group where the VM will be created
-resource "azurerm_resource_group" "notest" {
+resource "azurerm_resource_group" "example" {
   name     = "notest"
   location = "Australia Southeast"
 }
